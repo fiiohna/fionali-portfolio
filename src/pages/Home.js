@@ -7,6 +7,7 @@ import { homeObjOne } from '../components/Info/Data'
 import Experience from '../components/Experience/Experience'
 import Project from '../components/Projects/Project'
 import Skills from '../components/Skills/Skills'
+import Achievement from '../components/Achievements/Achievement'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +24,7 @@ const Home = () => {
         <Experience />
         <Project />
         <Skills />
+        <Achievement />
         <Info {...homeObjOne} />
     </>
   )

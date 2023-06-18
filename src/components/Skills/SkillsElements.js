@@ -13,24 +13,14 @@ color: white;
     height: 900px;
 }
 `
-export const SkillsH1 = styled.h1`
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 64px;
-
-    @media screen and (max-width: 480px){
-        font-size: 2rem;
-    }
-`
 export const SkillsWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
-    display: grid;
     grid-template-columns: 1fr 1fr; 
     // grid-template-columns: 1fr 1fr; 
     align-items: center;
     grid-gap: 16px;
-    padding: 0 50px;
+    padding: 0 10px 0 100px; // this to to make the Skills' content be centralised with the 'Skills' heading
 
     @media screen and (max-width: 1000px){
         grid-template-columns: 1f;
@@ -42,11 +32,21 @@ export const SkillsWrapper = styled.div`
     }
 `
 
+export const SkillsH1 = styled.h1`
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 64px;
+
+    @media screen and (max-width: 480px){
+        font-size: 2rem;
+    }
+`
+
 export const SkillsContent = styled.div`
     z-index: 3;
     max-width: 1200px;
-    position: absolute;
-    padding: 24px 24px;
+    position: relative;
+    padding: 0px 24px;
     display: grid;
     // flex-direction: column;
     // align-items: center;
@@ -54,6 +54,7 @@ export const SkillsContent = styled.div`
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
+    font-size: 1.5rem;
 `
 
 export const SkillsRow = styled.div`
@@ -69,18 +70,19 @@ export const SkillsRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 15px;
     grid-area:col1;
-    margin-left: 20px;
+
 `
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 15px;
     grid-area:col2;
 `
 export const SkillsH2 = styled.h2`
     font-size: 1.5rem;
     margin-bottom: 5px;
+    color: pink;
 `

@@ -9,7 +9,7 @@ const Navbar = ( {toggle}) => {
         <NavbarContainer>
           {/* Logo */}
           <NavbarLogo to="/">
-            dolla
+            Fiona Li
           </NavbarLogo>
           {/* Menu icon */}
           <MobileIcon onClick={toggle}>
