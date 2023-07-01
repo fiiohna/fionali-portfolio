@@ -7,6 +7,7 @@ import Project from '../components/Projects/Project'
 import Skills from '../components/Skills/Skills'
 // import Achievement from '../components/Achievements/Achievement'
 import Contact from  '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,6 +26,7 @@ const Home = () => {
         <Skills />
         {/* <Achievement /> */}
         <Contact />
+        <Footer />
     </>
   )
 }
