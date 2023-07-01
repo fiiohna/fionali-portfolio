@@ -4,8 +4,8 @@ import Icon2 from '../../images/ZilHive2.png';
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectImg, Left, Right, ProjectContent, ProjectH2, ProjectP } from './ProjectElements'
 const Project = () => {
     return (
-        <ProjectContainer>
-            <ProjectH1>Project</ProjectH1>
+        <ProjectContainer id="projects">
+            <ProjectH1>Projects</ProjectH1>
             {/* Project 1 */}
             <ProjectWrapper>
                 <Left>

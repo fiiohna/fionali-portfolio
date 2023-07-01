@@ -3,7 +3,7 @@ import { SkillsContainer, SkillsH1, SkillsWrapper, SkillsContent, SkillsRow, Col
 import { FaReact, FaVuejs, FaJs, FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaPython, FaPhp, FaDatabase, FaDesktop, FaDocker, FaMicrosoft, FaGithub, FaBox, FaFigma, FaPenFancy} from 'react-icons/fa';
 const Skills = () => {
     return (
-        <SkillsContainer>
+        <SkillsContainer id="skills">
             <SkillsH1>Skills</SkillsH1>
             <SkillsWrapper>
                 <SkillsContent>

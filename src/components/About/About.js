@@ -17,7 +17,7 @@ import {
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutBackground>
         <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
       </AboutBackground>
