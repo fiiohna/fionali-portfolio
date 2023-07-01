@@ -2,8 +2,6 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Navbar from '../components/Navbar/Navbar'
 import About from '../components/About/About'
-import Info from '../components/Info/Info'
-import { homeObjOne } from '../components/Info/Data'
 import Experience from '../components/Experience/Experience'
 import Project from '../components/Projects/Project'
 import Skills from '../components/Skills/Skills'
@@ -25,7 +23,6 @@ const Home = () => {
         <Project />
         <Skills />
         {/* <Achievement /> */}
-        {/* <Info {...homeObjOne} /> */}
     </>
   )
 }
