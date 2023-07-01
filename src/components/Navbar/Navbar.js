@@ -28,9 +28,9 @@ const Navbar = ( {toggle}) => {
             <NavbarItem>
               <NavbarLinks to="skills">Skills</NavbarLinks>
             </NavbarItem>
-            <NavbarItem>
+            {/* <NavbarItem>
               <NavbarLinks to="achievements">Achievements</NavbarLinks>
-            </NavbarItem>
+            </NavbarItem> */}
             <NavbarItem>
               <NavbarLinks to="contact">Contact</NavbarLinks>
             </NavbarItem>

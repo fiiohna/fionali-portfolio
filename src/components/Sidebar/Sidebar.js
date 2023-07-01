@@ -15,7 +15,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to="experience" onClick={toggle}>Experience</SidebarLink>
                 <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
                 <SidebarLink to="skills" onClick={toggle}>Skills</SidebarLink>
-                <SidebarLink to="achievements" onClick={toggle}>Achievements</SidebarLink>
+                {/* <SidebarLink to="achievements" onClick={toggle}>Achievements</SidebarLink> */}
                 <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
             </SidebarMenu>
             {/* Resume button */}

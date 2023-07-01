@@ -85,4 +85,5 @@ export const SkillsH2 = styled.h2`
     font-size: 1.5rem;
     margin-bottom: 5px;
     color: pink;
+    text-decoration: underline;
 `
