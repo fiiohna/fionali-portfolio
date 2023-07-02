@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 `
 
 export const CloseIcon = styled(FaTimes)`
-    color: white;
+    color: pink;
 `
 
 export const Icon = styled.div`
@@ -40,11 +40,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 80px);
+    grid-template-rows: repeat(6, 70px);
     text-align: center;
 
     @media screen and(max-width: 480px){
-        grid-template-rows: repeat(6, 60px);
+        grid-template-rows: repeat(6, 50px);
     }
 `
 
@@ -73,10 +73,10 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: pink;
     white-space: nowrap;
     padding: 10px 22px;
-    color: pink;
+    color: white;
     font-size: 16px;
     outline: none;
     border: none;

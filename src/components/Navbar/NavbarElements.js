@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: white;
+        color: pink;
     }
 `
 
@@ -80,7 +80,7 @@ export const NavbarLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
 
-    &:active{
+    &.active{
         border-bottom: 3px solid pink;
     }
 `
@@ -112,4 +112,9 @@ export const NavBtnLink = styled(LinkR)`
         background: white;
         color: black;
     }
+`
+
+export const NavLogoImg = styled.img`
+    width: 80px;
+    object-fit: contain;
 `

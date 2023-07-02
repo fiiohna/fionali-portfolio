@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const ContactContainer = styled.div`
-    height: 400px;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     background: #010606;
-    padding-bottom: 80px;
+    padding-top: 100px;
     color: white;
     @media screen and (max-width: 768px){
         height: 900px;
@@ -39,6 +39,23 @@ export const ContactH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 64px;
+
+    animation: glow 1s ease-in-out infinite alternate;
+
+    @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f551a3, 0 0 40px #f551a3, 0 0 50px #f551a3, 0 0 60px #f551a3, 0 0 70px #f551a3;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #f772b5, 0 0 40px #f772b5, 0 0 50px #f772b5, 0 0 60px #f772b5, 0 0 70px #f772b5, 0 0 80px#f772b5;
+        }
+    }
+    
+    @media screen and (max-width: 480px){
+        font-size: 2rem;
+    }
+
     @media screen and (max-width: 480px){
         font-size: 2rem;
     }
