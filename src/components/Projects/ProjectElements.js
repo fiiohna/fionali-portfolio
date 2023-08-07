@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom';
 
 export const ProjectContainer = styled.div`
-    height: 1200px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +67,7 @@ export const Left = styled.div`
     }
 
     &:hover{
-        cursor: pointer;
+        cursor: dafault;
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
     }
@@ -107,4 +108,38 @@ export const ProjectH2 = styled.h2`
 
 export const ProjectP = styled.p`
 color: #fff;
+`
+
+export const ProjectBtn = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media screen and (max-width:768px){
+        display: none;
+    }
+`
+
+export const ProjectBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: pink;
+    opacity: 0.8;
+    white-space: nowrap;
+    padding: 8px 22px;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 25px;
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: white;
+        color: black;
+    }
 `

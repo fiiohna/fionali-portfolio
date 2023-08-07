@@ -61,6 +61,13 @@ export const ContactH1 = styled.h1`
     }
 `
 
+export const ContactH2 = styled.h2`
+    font-size: 1.5rem;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 64px;
+`
 export const ContactContent = styled.div`
     z-index: 3;
     max-width: 1200px;
