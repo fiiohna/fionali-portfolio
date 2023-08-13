@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fionali-portfolio/static/css/main.12d59975.css",
+    "main.js": "/fionali-portfolio/static/js/main.6318ab6b.js",
+    "static/media/video.mp4": "/fionali-portfolio/static/media/video.cc4db308cc34e313fa1b.mp4",
+    "static/media/Blook.png": "/fionali-portfolio/static/media/Blook.012f1e7806426e9fdfe5.png",
+    "static/media/PetPals.png": "/fionali-portfolio/static/media/PetPals.8627799e10f30dd1334e.png",
+    "static/media/fiona.jpg": "/fionali-portfolio/static/media/fiona.485692e29525d2753dbd.jpg",
+    "static/media/LiBingqingFiona_Resume.pdf": "/fionali-portfolio/static/media/LiBingqingFiona_Resume.96dbd95f814fb793c318.pdf",
+    "static/media/ZilHive2.png": "/fionali-portfolio/static/media/ZilHive2.a51cd94a7b7051904dbb.png",
+    "static/media/fionalogo.png": "/fionali-portfolio/static/media/fionalogo.5f70e5f4b63a20436b9a.png",
+    "index.html": "/fionali-portfolio/index.html",
+    "main.12d59975.css.map": "/fionali-portfolio/static/css/main.12d59975.css.map",
+    "main.6318ab6b.js.map": "/fionali-portfolio/static/js/main.6318ab6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12d59975.css",
+    "static/js/main.6318ab6b.js"
+  ]
+}
