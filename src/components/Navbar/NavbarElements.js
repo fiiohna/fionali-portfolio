@@ -94,7 +94,11 @@ export const NavBtn = styled.nav`
     }
 `
 
-export const NavBtnLink = styled(LinkR)`
+export const ResumeHyperlink = styled.a`
+    text-decoration: none;
+`
+
+export const ResumeBtnLink = styled.div`
     border-radius: 50px;
     background: pink;
     white-space: nowrap;
@@ -106,12 +110,11 @@ export const NavBtnLink = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
     &:hover{
-        transition: all 0.2s ease-in-out;
-        background: white;
-        color: black;
-    }
+            transition: all 0.2s ease-in-out;
+            background: white;
+            color: black;
+        }
 `
 
 export const NavLogoImg = styled.img`

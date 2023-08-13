@@ -32,7 +32,7 @@ const Project = () => {
               the seamless matching process between pet owners and pet service
               providers in Singapore. Its primary objective is to provide an
               enhanced platform that surpasses existing websites, offering
-              unparalleled convenience and efficiency.
+              unparalleled convenience and efficiency. 
               <ProjectBtn>
                 <ProjectBtnLink to="https://drive.google.com/file/d/1UcGQ_MJUEI6uaZ3cDl22HEHrT7yfd-fl/view?usp=sharing">
                   Video Demo
@@ -84,13 +84,8 @@ const Project = () => {
           <ProjectContent>
             <ProjectH2>BLOOK</ProjectH2>
             <ProjectP>
-              The PRISM Protocol is a decentralized finance (DeFi) protocol that
-              draws inspiration from the Mirror Protocol. Its primary objective
-              is to facilitate the creation of synthetic assets that accurately
-              mirror real-world financial instruments, allowing users to derive
-              value from stocks, commodities, and other underlying assets, all
-              without the need for physical ownership.
-              {/* The PRISM Protocol website encompasses two key features that distinguish its functionality: the Trade and Governance sections. These features enable users to engage in efficient asset trading while also participating in the protocol's governance mechanisms, fostering a collaborative ecosystem that empowers stakeholders to shape the platform's future direction. */}
+              BLOOK is a one stop activities booking web application using a Microservice Architecture to manage user's bookings and list of activities provided by sellers.
+              Its primary objective is to streamline the process of discovering, booking, and enjoying various activities for users while offering a robust platform for sellers to showcase their offerings.
               <ProjectBtn>
                 <ProjectBtnLink to="https://drive.google.com/file/d/1yWa01oZ3ShQifpQ6KxKUOaTjHpOvF0jX/view">
                   Video Demo

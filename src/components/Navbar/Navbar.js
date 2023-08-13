@@ -1,8 +1,10 @@
 import React from 'react'
 import FionaLogo from '../../images/fionalogo.png'
 import {FaBars} from 'react-icons/fa'
-import {Nav, NavbarContainer, NavbarLogo, NavLogoImg, MobileIcon, NavbarMenu, NavbarItem, NavbarLinks, NavBtn, NavBtnLink} from './NavbarElements.js'
+import {Nav, NavbarContainer, NavbarLogo, NavLogoImg, MobileIcon, NavbarMenu, NavbarItem, NavbarLinks, NavBtn, ResumeHyperlink, ResumeBtnLink} from './NavbarElements.js'
 import {animateScroll as scroll} from 'react-scroll'
+import resume from '../../documents/LiBingqingFiona_Resume.pdf'
+
 const Navbar = ( {toggle}) => {
 
   const toggleHome = () => {
@@ -42,8 +44,13 @@ const Navbar = ( {toggle}) => {
             </NavbarItem>
           </NavbarMenu>
           {/* Resume button */}
+          {/* <NavBtn>
+            <NavBtnLink >Resume</NavBtnLink>
+          </NavBtn> */}
           <NavBtn>
-            <NavBtnLink to="/resume">Resume</NavBtnLink>
+            <ResumeHyperlink href={resume} download="LiBingqingFiona_Resume">
+            <ResumeBtnLink>Resume</ResumeBtnLink>
+            </ResumeHyperlink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
