@@ -16,9 +16,9 @@ const Experience = () => {
       <ExperienceH1>Experience</ExperienceH1>
       <ExperienceWrapper>
         <ExperienceCard>
-          <ExperienceH2>SMU-Accenture partnership with AWS</ExperienceH2>
+          <ExperienceH2>Cloud and DevOps Intern</ExperienceH2>
           <ExperienceH3>
-            SMU SCIS Work-Study Elective Program Intern (2023 May - 2023 Nov)
+            Accenture (2023 May - 2023 Nov)
           </ExperienceH3>
           <ExperienceP>
             <div>• Developed and implemented CI/CD pipelines using Azure DevOps to
