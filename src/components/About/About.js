@@ -32,7 +32,7 @@ const About = () => {
             <br></br>
             <br></br>
             Feel free to take a look at my portfolio and connect with me via any
-            of my socials in the NavBar! Thank you for taking the time to visit my website, I look forward to hearing
+            of my socials in the Contacts section! Thank you for taking the time to visit my website, I look forward to hearing
             from you!
           </AboutParagraph>
         </Column1>
