@@ -20,8 +20,8 @@ const Contact = () => {
       <ContactWrapper>
         <ContactContent>
           <ContactH2>
-            I am currently looking for internship opportunities in solutions
-            architect, data analyst/science, and infrastructure engineer. Feel
+            I am currently looking for internship opportunities as a solutions
+            architect and/or infrastructure engineer. Feel
             free to reach out to me!
           </ContactH2>
           <ContactRow>
