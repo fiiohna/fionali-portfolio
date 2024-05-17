@@ -8,6 +8,7 @@ import {
   AboutContent,
   AboutTitle,
   AboutParagraph,
+  NameText,
   AboutRow,
   Column1,
   Column2,
@@ -26,12 +27,12 @@ const About = () => {
         <Column1>
         <AboutTitle>Hey there welcome to my portfolio!</AboutTitle>
           <AboutParagraph>
-            Hello! I'm Fiona Li, an ambitious Solutions Architect and DevOps engineer with a passion for leveraging cloud solutions to
+            Hello! I'm <NameText>Fiona Li</NameText>, an ambitious Solutions Architect and DevOps engineer with a passion for leveraging cloud solutions to
             tackle complex business challenges and drive digital transformation.
             <br></br>
             <br></br>
             Feel free to take a look at my portfolio and connect with me via any
-            of my socials in the Contacts section. Thank you for taking the time to visit my website and I look forward to hearing
+            of my socials in the Contact section. Thank you for taking the time to visit my website and I look forward to hearing
             from you!
           </AboutParagraph>
         </Column1>

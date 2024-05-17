@@ -74,29 +74,26 @@ export const SkillsContent = styled.div`
 `
 
 export const SkillsRow = styled.div`
-    display: grid;
-    grid-auto-columns: minmax(auto, 1fr);
-    justify-content: center;
-    align-items: center;
-    grid-template-areas:${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-    margin-bottom: 30px;
-    @media screen and (max-width: 768px){
-        grid-template-areas:${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
-    }
-`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; // This will align the columns vertically based on their top edges
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column; // Stack the columns vertically on small screens
+  }
+`;
 
 export const Column1 = styled.div`
-    margin-bottom: 10px;
-    padding: 0 15px;
-    grid-area:col1;
-
-`
+  width: 45%; // Set a fixed width for the columns
+  padding: 0 15px;
+`;
 
 export const Column2 = styled.div`
-    margin-bottom: 10px;
-    padding: 0 15px;
-    grid-area:col2;
-`
+  width: 45%; // Set a fixed width for the columns
+  padding: 0 15px;
+`;
+
 export const SkillsH2 = styled.h2`
     font-size: 1.5rem;
     margin-bottom: 5px;

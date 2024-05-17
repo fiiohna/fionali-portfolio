@@ -104,6 +104,10 @@ export const AboutParagraph = styled.p`
     }
 `
 
+export const NameText = styled.span`
+  color: pink;
+`;
+
 export const ImgWrap = styled.div`
     max-width: 400px;
     height: 100%;

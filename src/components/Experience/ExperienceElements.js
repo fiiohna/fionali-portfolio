@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ExperienceContainer = styled.div`
-    height: 600px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,13 +43,14 @@ export const ExperienceCard = styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover{
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+        box-shadow: 0 0 20px rgba(255, 228, 210, 0.8);
     }
 `
 
@@ -86,6 +87,10 @@ export const ExperienceH3 = styled.h3`
 `
 
 export const ExperienceP = styled.p`
-    font-size: 1rem;
-    text-align: center;
-`
+  font-size: 1rem;
+  text-align: left; // Change from 'center' to 'left'
+
+  li {
+    margin-bottom: 0.5rem; // Add spacing between list items
+  }
+`;
