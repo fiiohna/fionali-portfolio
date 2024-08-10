@@ -2,23 +2,19 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom';
 
 export const ProjectContainer = styled.div`
-    height: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #010606;
-    padding-bottom: 80px;
-    @media screen and (max-width: 768px){
-        height: 1200px;
-    }
-
+    padding: 60px 0 0 0;
 `
 
 export const ProjectH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 64px;
+    text-align: center;
 
     animation: glow 1s ease-in-out infinite alternate;
 
@@ -33,91 +29,77 @@ export const ProjectH1 = styled.h1`
     }
     @media screen and (max-width: 480px){
         font-size: 2rem;
-    }
-    @media screen and (max-width: 480px){
-        font-size: 2rem;
+        margin-bottom: 32px;
     }
 `
 
 export const ProjectWrapper = styled.div`
     max-width: 1000px;
-    margin: 0 0 64px 0;
-    display: grid;
-    grid-template-columns: 1fr; 
-    // grid-template-columns: 1fr 1fr; 
+    width: 100%;
+    margin: 0 auto 64px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    grid-gap: 16px;
-    padding: 0 50px;
-    position: relative;
+    padding: 0 20px;
 
-    @media screen and (max-width: 1000px){
-        grid-template-columns: 1f;
-    }
-
-    @media screen and (max-width: 768px){
-        grid-template-columns: 1fr;
-        padding: 0 20px;
+    @media screen and (min-width: 768px){
+        flex-direction: row;
+        align-items: flex-start;
     }
 `
 
 export const Left = styled.div`
-    width: 80%;
-    @media screen and (max-width: 768px){
-        width: 100%;
-    }
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
 
-    &:hover{
-        cursor: dafault;
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
+    @media screen and (min-width: 768px){
+        width: 50%;
+        margin-bottom: 0;
     }
 `
 
 export const ProjectImg = styled.img`
     width: 100%;
-`
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
 
-export const Right = styled.div`
-    display: flex;
-    margin-left: 50%;
-    background-color: rgba(15, 0, 10, 0.5);
-    z-index: 1;
-    position: absolute;
-    padding: 12px;
-    border-radius: 8px;
-    text-align: center;
-    
-    @media screen and (max-width: 768px){
-        width: 100%;
-        margin: 0;
-        position: static;
+    &:hover {
+        transform: scale(1.02);
     }
 `
 
-export const ProjectContent = styled.div`
+export const Right = styled.div`
+    width: 100%;
+    background-color: rgba(15, 0, 10, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+
+    @media screen and (min-width: 768px){
+        width: 50%;
+        margin-left: -50px;
+        z-index: 1;
+    }
 `
+
+export const ProjectContent = styled.div``
 
 export const ProjectH2 = styled.h2`
     font-size: 1.5rem;
     color: #fff;
-    text-align: right;
-    @media screen and (max-width: 768px){
-        text-align: center;
-    }
+    text-align: center;
+    margin-bottom: 15px;
 `
 
 export const ProjectP = styled.p`
-color: #fff;
+    color: #fff;
+    margin-bottom: 20px;
 `
 
 export const ProjectBtn = styled.nav`
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    @media screen and (max-width:768px){
-        display: none;
-    }
 `
 
 export const ProjectBtnLink = styled(LinkR)`
@@ -133,9 +115,7 @@ export const ProjectBtnLink = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    justify-content: center;
-    text-align: center;
-    margin: 10px 25px;
+    margin: 10px;
 
     &:hover{
         transition: all 0.2s ease-in-out;

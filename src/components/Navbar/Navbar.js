@@ -43,10 +43,6 @@ const Navbar = ( {toggle}) => {
               <NavbarLinks to="contact" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact</NavbarLinks>
             </NavbarItem>
           </NavbarMenu>
-          {/* Resume button */}
-          {/* <NavBtn>
-            <NavBtnLink >Resume</NavBtnLink>
-          </NavBtn> */}
           <NavBtn>
             <ResumeHyperlink href={resume} download="LiBingqingFiona_Resume">
             <ResumeBtnLink>Resume</ResumeBtnLink>

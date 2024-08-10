@@ -1,41 +1,35 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
-height: 800px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background: #010606;
-padding-bottom: 80px;
-color: white;
-@media screen and (max-width: 768px){
-    height: 900px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #010606;
+    padding: 60px 0;
+    color: white;
 `
+
 export const SkillsWrapper = styled.div`
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr; 
-    // grid-template-columns: 1fr 1fr; 
-    align-items: center;
-    grid-gap: 16px;
-    padding: 0 10px 0 100px; // this to to make the Skills' content be centralised with the 'Skills' heading
-
-    @media screen and (max-width: 1000px){
-        grid-template-columns: 1f;
-    }
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensure content stays centered */
 
     @media screen and (max-width: 768px){
-        grid-template-columns: 1fr;
-        padding: 0 20px;
+        padding: 0 15px;
     }
 `
+
 
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 64px;
+    text-align: center;
 
     animation: glow 1s ease-in-out infinite alternate;
 
@@ -51,52 +45,54 @@ export const SkillsH1 = styled.h1`
     
     @media screen and (max-width: 480px){
         font-size: 2rem;
-    }
-
-    @media screen and (max-width: 480px){
-        font-size: 2rem;
+        margin-bottom: 32px;
     }
 `
 
 export const SkillsContent = styled.div`
-    z-index: 3;
-    max-width: 1200px;
-    position: relative;
-    padding: 0px 24px;
-    display: grid;
-    // flex-direction: column;
-    // align-items: center;
-
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
-    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 `
 
 export const SkillsRow = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; // This will align the columns vertically based on their top edges
-  margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Centering the content horizontally */
+    gap: 80px;
+    flex-wrap: wrap; /* Ensuring the columns wrap on smaller screens */
 
-  @media screen and (max-width: 768px) {
-    flex-direction: column; // Stack the columns vertically on small screens
-  }
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center; /* Ensure the columns are centered on smaller screens as well */
+    }
 `;
 
-export const Column1 = styled.div`
-  width: 45%; // Set a fixed width for the columns
-  padding: 0 15px;
+export const Column = styled.div`
+    flex: 1;
+    max-width: 45%; /* Limit the max width of each column */
+    min-width: 200px; /* Set a minimum width to ensure good appearance */
+    
+    @media screen and (max-width: 768px) {
+        max-width: 100%; /* Full width on smaller screens */
+    }
 `;
 
-export const Column2 = styled.div`
-  width: 45%; // Set a fixed width for the columns
-  padding: 0 15px;
-`;
 
 export const SkillsH2 = styled.h2`
     font-size: 1.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     color: pink;
     text-decoration: underline;
+`
+
+export const SkillItem = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+
+    svg {
+        font-size: 1.3rem;
+    }
 `

@@ -27,7 +27,7 @@ const About = () => {
         <Column1>
         <AboutTitle>Hey there welcome to my portfolio!</AboutTitle>
           <AboutParagraph>
-            Hello! I'm <NameText>Fiona Li</NameText>, an ambitious Solutions Architect and DevOps engineer with a passion for leveraging cloud solutions to
+            Hello! I'm <NameText>Fiona Li</NameText>, a cloud and security enthusiast who has a passion for leveraging cloud solutions to
             tackle complex business challenges and drive digital transformation.
             <br></br>
             <br></br>

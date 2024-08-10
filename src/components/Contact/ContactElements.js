@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContactContainer = styled.div`
-    height: 700px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: top;

@@ -20,9 +20,7 @@ const Contact = () => {
       <ContactWrapper>
         <ContactContent>
           <ContactH2>
-            I am currently looking for internship opportunities as a solutions
-            architect and/or infrastructure engineer. Feel
-            free to reach out to me!
+            I am currently looking for internship/graduate roles, feel free to contact me!
           </ContactH2>
           <ContactRow>
             <Column1>
@@ -42,11 +40,11 @@ const Contact = () => {
               </Link>
             </Column2>
             <Column3>
-              <Link href="mailto:fiona.li.2021@scis.smu.edu.sg">
+              <Link href="mailto:fionalibq2407@gmail.com">
                 <div>
                   <FaEnvelopeSquare font-size="3rem" />
                 </div>{" "}
-                <div>fiona.li.2021@scis.smu.edu.sg</div>
+                <div>fionalibq2407@gmail.com</div>
               </Link>
             </Column3>
           </ContactRow>

@@ -4,16 +4,13 @@ export const AboutContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     justify-content: center;
-    // align-items: center;
-    padding: 20px 30px;
-    height: 700px;
+    padding: 60px 30px;
     position: relative;
     z-index: 1;
 
-    @media screen and (max-width: 768px){
-        height: 1000px;
+    @media screen and (max-width: 768px) {
+        padding: 40px 15px 100px 15px;
     }
-    /* Add :before styles */
 `
 
 export const AboutBackground = styled.div`
@@ -38,15 +35,15 @@ export const  VideoBackground = styled.video`
 export const AboutContent = styled.div`
     z-index: 3;
     max-width: 1200px;
-    position: absolute;
-    padding: 24px 24px;
-    display: grid;
-    // flex-direction: column;
-    // align-items: center;
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
+    @media screen and (max-width: 768px) {
+        padding: 0 12px;
+    }
 `
 
 export const AboutTitle = styled.h1`
@@ -66,12 +63,12 @@ export const AboutTitle = styled.h1`
 export const AboutRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
-    justify-content: center;
     align-items: center;
-    grid-template-areas:${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    width: 100%;
     
-    @media screen and (max-width: 768px){
-        grid-template-areas:${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `
 
@@ -111,21 +108,25 @@ export const NameText = styled.span`
 export const ImgWrap = styled.div`
     max-width: 400px;
     height: 100%;
+
+    @media screen and (max-width: 768px) {
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0 auto;
+    }
 `
 
 export const Img = styled.img`
     width: 100%;
-    object-fit: contain;
-    // position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    object-fit: cover;
     margin-left: 10px;
     padding-right: 0;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         width: 100%;
-        height: auto;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 0;
     }
 `;

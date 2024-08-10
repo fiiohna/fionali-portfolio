@@ -1,6 +1,7 @@
 import React from 'react'
-import { SkillsContainer, SkillsH1, SkillsWrapper, SkillsContent, SkillsRow, Column1, Column2, SkillsH2 } from './SkillsElements'
-import { FaReact, FaVuejs, FaJs, FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaPython, FaPhp, FaDatabase, FaDesktop, FaDocker, FaMicrosoft, FaGit, FaBox, FaFigma, FaPenFancy, FaAws, FaJira} from 'react-icons/fa';
+import { SkillsContainer, SkillsH1, SkillsWrapper, SkillsContent, SkillsRow, Column, SkillsH2, SkillItem } from './SkillsElements'
+import { FaReact, FaVuejs, FaJs, FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaPython, FaPhp, FaDatabase, FaDesktop, FaDocker, FaMicrosoft, FaGit, FaBox, FaFigma, FaPenFancy, FaAws, FaJira, FaGitlab} from 'react-icons/fa';
+
 const Skills = () => {
     return (
         <SkillsContainer id="skills">
@@ -8,43 +9,46 @@ const Skills = () => {
             <SkillsWrapper>
                 <SkillsContent>
                     <SkillsRow>
-                        <Column1>
+                        <Column>
                             <SkillsH2>Front-end</SkillsH2>
-                            <div>React.js <FaReact /></div>
-                            <div>Vue.js <FaVuejs /></div>
-                            <div>Javascript <FaJs /></div>
-                            <div>HTML <FaHtml5 /></div>
-                            <div>CSS/SASS <FaCss3Alt /><FaSass /></div>
-                            <div>Bootstrap <FaBootstrap /></div>
-                        </Column1>
-                        <Column2>
+                            <SkillItem>React.js <FaReact /></SkillItem>
+                            <SkillItem>Vue.js <FaVuejs /></SkillItem>
+                            <SkillItem>Javascript <FaJs /></SkillItem>
+                            <SkillItem>HTML <FaHtml5 /></SkillItem>
+                            <SkillItem>CSS/SASS <FaCss3Alt /><FaSass /></SkillItem>
+                            <SkillItem>Bootstrap <FaBootstrap /></SkillItem>
+                        </Column>
+                        <Column>
                             <SkillsH2>Back-end</SkillsH2>
-                            <div>Python <FaPython /></div>
-                            <div>PHP <FaPhp /></div>
-                            <div>MySQL <FaDatabase /></div>
-                            <div>Pandas <FaPython /></div>
-                            <div>Postman API Platform <FaDesktop /></div>
-                            <div>RabbitMQ <FaDesktop /></div>
-                        </Column2>
+                            <SkillItem>Python <FaPython /></SkillItem>
+                            <SkillItem>PHP <FaPhp /></SkillItem>
+                            <SkillItem>MySQL <FaDatabase /></SkillItem>
+                            <SkillItem>Pandas <FaPython /></SkillItem>
+                            <SkillItem>Postman API Platform <FaDesktop /></SkillItem>
+                            <SkillItem>RabbitMQ <FaDesktop /></SkillItem>
+                        </Column>
                     </SkillsRow>
                     <SkillsRow>
-                        <Column1>
+                        <Column>
                             <SkillsH2>Prototyping/Design</SkillsH2>
-                            <div>Figma <FaFigma /></div>
-                            <div>Canvas <FaPenFancy /></div>
-                            <div>Drawio <FaPenFancy /></div>
-                            <div>Maze Testing <FaPenFancy /></div>
-                        </Column1>
-                        <Column2>
+                            <SkillItem>Figma <FaFigma /></SkillItem>
+                            <SkillItem>Canvas <FaPenFancy /></SkillItem>
+                            <SkillItem>Drawio <FaPenFancy /></SkillItem>
+                            <SkillItem>Maze Testing <FaPenFancy /></SkillItem>
+                        </Column>
+                        <Column>
                             <SkillsH2>Others</SkillsH2>
-                            <div>AWS <FaAws /></div>
-                            <div>Azure <FaMicrosoft /></div>
-                            <div>Azure DevOps <FaMicrosoft /></div>
-                            <div>Docker <FaDocker /></div>
-                            <div>Kubernetes <FaBox /></div>
-                            <div>Git <FaGit /></div>
-                            <div>Jira <FaJira /></div>
-                        </Column2>
+                            <SkillItem>AWS <FaAws /></SkillItem>
+                            <SkillItem>Azure <FaMicrosoft /></SkillItem>
+                            <SkillItem>Azure DevOps <FaMicrosoft /></SkillItem>
+                            <SkillItem>Terraform</SkillItem>
+                            <SkillItem>Docker <FaDocker /></SkillItem>
+                            <SkillItem>Kubernetes <FaBox /></SkillItem>
+                            <SkillItem>Sonarqube </SkillItem>
+                            <SkillItem>Git <FaGit /></SkillItem>
+                            <SkillItem>Gitlab <FaGitlab /></SkillItem>
+                            <SkillItem>Jira <FaJira /></SkillItem>
+                        </Column>
                     </SkillsRow>
                 </SkillsContent>
             </SkillsWrapper>

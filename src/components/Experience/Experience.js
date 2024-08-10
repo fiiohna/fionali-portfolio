@@ -14,11 +14,28 @@ const Experience = () => {
     <ExperienceContainer id="experience">
       <ExperienceH1>Experience</ExperienceH1>
       <ExperienceWrapper>
-      <ExperienceCard>
+        <ExperienceCard>
           <ExperienceH2>Production Engineer Intern</ExperienceH2>
           <ExperienceH3>Monetary Authority of Singapore (2024 May - 2024 Aug)</ExperienceH3>
           <ExperienceP>
-            Internship in progress...To be updated :)
+            <ul>
+              <li>
+                Developed CI/CD pipeline to automate terraform commands and ensure efficient delivery of updates and new features.
+              </li>
+              <li>
+                Developed Python shell scripts to automate various tasks, streamlining workflows and increasing productivity
+              </li>
+              <li>
+                Automated AWS infrastructure deployment using Terraform, significantly improving efficiency and reproducibility.
+              </li>
+              <li>
+                Utilized AWS Security Hub and Terraform Checkov to enforce security best practices.
+              </li>
+              <li>
+                Implemented comprehensive logging and monitoring solutions using AWS CloudWatch and CloudTrail to ensure system 
+                health and compliance.
+              </li>
+            </ul>
           </ExperienceP>
         </ExperienceCard>
 
@@ -53,16 +70,17 @@ const Experience = () => {
                 automate deployment process.
               </li>
               <li>
-                Troubleshoot and resolve issues related to deployments and
-                continuous integration processes.
+                Established Azure Kubernetes clusters for build agents and application workloads.
               </li>
               <li>
                 Migrated on-premises workloads to Azure, ensuring minimal
                 downtime and smooth integration with existing infrastructure.
               </li>
               <li>
-                Collaborate with development teams to ensure applications are
-                deployed correctly.
+                Implemented code analysis tools in the pipeline's codebase and address security vulnerabilities to safeguard the pipeline.
+              </li>
+              <li>
+                Set up monitoring and logging using Kusto Query Language to facilitate proactive responses to incidents.
               </li>
             </ul>
           </ExperienceP>
