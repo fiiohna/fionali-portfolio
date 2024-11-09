@@ -1,2 +1,3 @@
 # Welcome to my portfolio page!👋😃
-fionali-portfolio.vercel.app
+
+[Check it out here](https://fionali-portfolio.vercel.app)
